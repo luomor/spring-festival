@@ -30,7 +30,7 @@
         canvas.height = SCREEN_HEIGHT;
         canvas.style.width = SCREEN_WIDTH + 'px';
         canvas.style.height = SCREEN_HEIGHT + 'px';
-        // canvas.style.backgroundColor = "#ffffff";
+        // canvas.style.backgroundColor = "#db2020";
         canvas.style.position = 'absolute';
         canvas.style.top = '0px';
         canvas.style.left = '0px';
@@ -199,7 +199,7 @@
             }
 
             // clear canvas
-            context.fillStyle = "rgba(0, 0, 0, 0.05)";
+            context.fillStyle = "rgba(219, 32, 32, 0.05)";
             context.fillRect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
 
             var existingRockets = [];
