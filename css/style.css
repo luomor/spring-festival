@@ -143,16 +143,16 @@ body {
     width: 100px;
     height: 630px;
     line-height: 80px;
-    padding: 40px 10px 60px;
+    padding: 90px 10px 60px;
     background-size: 100% auto;
 }
 
 #chunlian #r1 {
-    right: -15px;
+    right: -16px;
 }
 
 #chunlian #l1 {
-    left: -15px;
+    left: -16px;
 }
 
 #chunlian #h1 {
@@ -163,6 +163,35 @@ body {
     padding: 10px 50px;
     background-size: auto 100%;
     top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#author div {
+    display: none;
+
+    color: black;
+    font-family: "YanTi";
+    font-size: 66px;
+    position: absolute;
+}
+
+#author div:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 7px double #eeee11;
+}
+
+#author .author {
+    height: 100px;
+    line-height: 80px;
+    padding: 10px 50px;
+    background-size: auto 100%;
+    bottom: 200px;
     left: 50%;
     transform: translate(-50%, 0);
 }
