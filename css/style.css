@@ -147,15 +147,15 @@ body {
     background-size: 100% auto;
 }
 
-#chunlian #r {
+#chunlian #r1 {
     right: -55px;
 }
 
-#chunlian #l {
+#chunlian #l1 {
     left: -55px;
 }
 
-#chunlian #h {
+#chunlian #h1 {
     /* direction: rtl;
     unicode-bidi: bidi-override; */
     height: 100px;
