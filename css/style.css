@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    background-color: var(--main-darkblue);
+    /*background-color: var(--main-darkblue);*/
     color: #E0E0E0;
     user-select: none;
     /* pointer-events: none; */
