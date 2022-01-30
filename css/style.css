@@ -42,12 +42,12 @@ body {
     /* position: absolute;
     right: 10px;
     top: 10px; */
-    width: 32px;
-    height: 32px;
-    margin: 2px;
+    width: 64px;
+    height: 64px;
+    margin: 6px;
 
     background-color: #000000;
-    background-size: 24px;
+    background-size: 48px;
     background-position: 4px 4px;
     background-repeat: no-repeat;
     border: none;
@@ -64,13 +64,13 @@ body {
 
 .io:before {
     content: "";
-    width: 32px;
+    width: 64px;
     height: 3px;
     border-radius: 1.5px;
     transform: rotate(45deg);
     position: absolute;
     left: 0;
-    top: 14.5px;
+    top: 29px;
 
     /* display: none; */
     background-color: white;

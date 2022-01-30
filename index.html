@@ -134,7 +134,16 @@
     <script>
         // fullScreen()
         // get163(396696, document.getElementById("bgm"));
-        document.getElementById("bgm").play();
+        // https://developer.chrome.com/blog/autoplay/
+        let promise = document.getElementById("bgm").play();
+        if (promise !== undefined) {
+          promise.then(_ => {
+            // Autoplay started!
+          }).catch(error => {
+            // Autoplay was prevented.
+            // Show a "Play" button so that user can start playback.
+          });
+        }
         // getear0(36261, document.getElementById("fwk"));
         // document.getElementById("fwk").play();
         document.getElementById("fwk").volume = 0.5;
